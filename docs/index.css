@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+}
+
+
+.cover-background {
+    background-color:#e4e6de;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 300px 600px;
+    height: 100%;
+  }
+
+  #title {
+    color: #4b4d44;
+    font-family: letter-gothic-std, monospace;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3.75vw;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  #browse-button {
+    color:#717567;
+    font-family: letter-gothic-std, monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.homepage-background {
+    background-color: #e4e6de;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    margin: 0 auto;
+    height: 100%;
+}
+
+  .work {
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .red {
+      color: red;
+  }
+
+  .pink {
+      color: pink;
+  }
+
