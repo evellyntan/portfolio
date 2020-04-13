@@ -1,8 +1,7 @@
 html, body {
     height: 100%;
+    font-family: letter-gothic-std, monospace;
 }
-
-
 .cover-background {
     background-color:#e4e6de;
     background-repeat: no-repeat;
@@ -11,9 +10,9 @@ html, body {
     margin: 0 auto;
     padding: 300px 600px;
     height: 100%;
-  }
+}
 
-  #title {
+#title {
     color: #4b4d44;
     font-family: letter-gothic-std, monospace;
     font-weight: 900;
@@ -21,9 +20,10 @@ html, body {
     font-size: 3.75vw;
     margin-top: 25px;
     text-align: center;
-  }
+    position: relative;
+}
 
-  #browse-button {
+#browse-button {
     color:#717567;
     font-family: letter-gothic-std, monospace;
     font-weight: 700;
@@ -31,6 +31,7 @@ html, body {
     font-size: 1.25vw;
     margin: 0 auto;
     text-align: center;
+    position: relative;
 }
 
 .homepage-background {
@@ -42,7 +43,55 @@ html, body {
     height: 100%;
 }
 
-  .work {
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #e6e7e4;
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#article{
+    float: right;
+    padding: 20px;
+    width: 66.5%;
+    background-color: #f1f1f1;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.work {
     color: black;
     font-size: 15px;
     padding: 20px;
